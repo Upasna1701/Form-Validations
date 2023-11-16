@@ -1,0 +1,99 @@
+.basic-error-message{
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  text-transform: capitalize;
+}
+
+.basic-form-wrap {
+  border: unset;
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+.basic-label{
+    font-size: 20px;
+}
+.cont-head{
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    color: #000;
+    font-weight: 700;
+}
+.cont-desc{
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-weight: 500;
+    color: #252525;
+    
+}
+.contact-form{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.col-12, .col-6{
+    position: relative;
+}
+label .error{
+  position: absolute;
+  bottom: 15px;
+}
+select{
+  color: #373737;
+  font-weight: 400;
+}
+.half{
+    width: 11.875rem;
+    border: 1px solid #000;
+    height: 3.125rem;
+    margin-bottom: 1rem;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    background-color: #fff;
+}
+.full{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #C6D0F0;
+  border-radius: 0.267rem;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  outline: none;
+  padding: 0.375rem 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.submit{
+  width: 6.75rem;
+  height: 3.125rem;
+  border-radius: 26px;
+  background-color: orange;
+  border: none;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1.25rem;
+}
+.extra-note{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.extra-note p{
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 10px;
+  max-width: 60%;
+  padding-right: 20px;
+}
+  

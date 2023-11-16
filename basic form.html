@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form-validation.css">
+</head>
+<body>
+    
+  <section class="basicform-sec">
+    <div class="container">
+        <h2>Basic form validations</h2>
+        <div class="basic-form-wrap" id="">
+            <form id="basicform" method="POST" class="contact-form" novalidate>
+                <div class="col-12">
+                    <label class="basic-label">Username*</label>
+                    <input class="full" type="text" id="Username" name="childname" placeholder="Enter Username" required minlength="1" maxlength="200" >
+                    <div class="basic-error-message" id="Username-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Parent Name*</label>
+                    <input class="full" type="text" id="ParentName" name="parentname" placeholder="Enter Parent Name" required minlength="1" maxlength="200" >
+                    <div class="basic-error-message" id="ParentName-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Mobile Number*</label>
+                    <input class="full" type="tel" id="phone" name="phone" placeholder="Enter Phone Number" minlength="10" maxlength="10" required>
+                    <div class="basic-error-message" id="phone-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Email*</label>
+                    <input class="full" id="email" name="email" type="email" placeholder="Enter Email" required minlength="1" maxlength="100" >
+                    <div class="basic-error-message" id="email-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Token Number*</label>
+                    <input class="full" id="TokenNumber" name="token" type="tel" placeholder="Enter Token Number" required minlength="1" maxlength="6" >
+                    <div class="basic-error-message" id="TokenNumber-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Bank Account Name*</label>
+                    <input class="full" type="text" id="AccountName" name="accountname" placeholder="Enter Account Name" required minlength="1" maxlength="200" >
+                    <div class="basic-error-message" id="AccountName-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">Bank Account Number*</label>
+                    <input class="full" type="tel" id="AccountNumber" name="accountnumber" placeholder="Enter Account Number" minlength="9" maxlength="18" required>
+                    <div class="basic-error-message" id="AccountNumber-error"></div>
+                </div>
+                <div class="col-12">
+                    <label class="basic-label">IFSC Code*</label>
+                    <input class="full" id="IfscCode" name="ifsccode" type="text" placeholder="Enter IFSC code" required minlength="1" maxlength="11" >
+                    <div class="basic-error-message" id="IfscCode-error"></div>
+                </div>
+                <div class="extra-note">
+                    <input type="submit" class="basic-form-btn submit-btn theme-btn"  value="Confirm" data-event-category="Button" data-event-action="Click" data-event-name="Submit Refund Form">
+                </div>
+            </form>
+        </div>
+    </div>
+  </section>
+
+    <!-- include jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- My external js file  -->
+    <script src="form-validation.js" defer></script>
+</body>
+</html>
